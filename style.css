@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('bg.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    width: 400px;
+    height: 520px;
+    background: transparent;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(1, 1, 1, .1),
+                inset 3px 3px 10px rgba(0, 0, 0, .1);
+}
+
+.container h1 {
+    margin-top: 25px;
+    color: rgb(34, 34, 34);
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+form .form-group i {
+    transform: translateX(35px);
+    color: rgba(59, 59, 59);
+}
+
+form .form-group input {
+    border-radius: 30px;
+    border: 2px solid red;
+    width: 300px;
+    height: 45px;
+    background: transparent;
+    margin: 25px 20px 0 0;
+    padding: 0 20px 0 40px;
+    font-size: 16px;
+    transition: all .4s;
+}
+
+form .form-group input:valid {
+    border: 2px solid green;
+}
+
+form .submit {
+    cursor: pointer;
+    width: 300px;
+    height: 45px;
+    margin-top: 25px;
+    background: rgb(43, 91, 224);
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+form .submit:hover {
+    background: rgb(36, 79, 196);
+}
